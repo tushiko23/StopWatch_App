@@ -1,0 +1,11 @@
+.show_timer {
+  font-size: 4.5rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.start,.stop,.reset {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
