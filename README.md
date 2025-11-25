@@ -1,2 +1,5 @@
 # StopWatch_App
-Javascriptでストップウォッチを作る
+
+Javascript でストップウォッチを作る
+
+![StopWatchDemo](images/stopwatch_domo.gif)
