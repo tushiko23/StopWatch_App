@@ -43,6 +43,7 @@ stopButton.addEventListener('click', ()=> {
 }); 
 
 resetButton.addEventListener('click', ()=> {
+  clearTimeout(timeoutID);
   startButton.disabled = false;
   stopButton.disabled = true;
   resetButton.disabled = true;
