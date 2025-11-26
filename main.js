@@ -13,7 +13,7 @@ function displayTime() {
   const h = String(Math.floor(elapsedTime / 3600000));
   const m = String(Math.floor((elapsedTime / 60000) % 60));
   const s = String(Math.floor((elapsedTime / 1000) % 60));
-  const ms = String(Math.floor(elapsedTime) % 10);
+  const ms = String(Math.floor((elapsedTime % 1000) / 100));
 
   time.textContent = `${h}:${m}:${s}:${ms}`;
   timeoutID = setTimeout(displayTime, 100);
